@@ -1,0 +1,22 @@
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  color: white;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: black;
+}
+.navbar {
+  display: flex;
+  gap: 1rem;
+}
+.link {
+  all: unset;
+  font-size: large;
+  cursor: pointer;
+}

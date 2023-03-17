@@ -1,0 +1,6 @@
+.env
+node_modules
+moviesDataVersion3.json
+moviesDataVersion4.json
+trendingData.json
+credIIIData.json

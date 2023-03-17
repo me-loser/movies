@@ -1,0 +1,61 @@
+.reviews {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  color: #fff;
+}
+.review-card {
+  display: flex;
+  gap: 2rem;
+}
+.avatar {
+  flex: 1;
+}
+.avatar-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 500px;
+}
+.review {
+  flex: 9;
+}
+.review > h2 {
+  margin: 0;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+.review p:nth-child(2) {
+  font-weight: 200;
+}
+.review span {
+  font-weight: 500;
+}
+.review > p {
+  margin: 0;
+}
+.content-box {
+  position: relative;
+}
+.content {
+  padding-top: 2rem;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.content.show {
+  display: block;
+}
+.read-more {
+  all: unset;
+  /* background: black; */
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: yellowgreen;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+.read-more:hover {
+  color: brown;
+}

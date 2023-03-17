@@ -1,0 +1,48 @@
+.cast-card {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 10%);
+  border-radius: 10px;
+  /* min-width: 185px; */
+  /* width: 185px; */
+  height: 100%;
+  color: #fff;
+}
+.cast-image {
+  /* width: 200px; */
+  /* object-fit: cover; */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.names {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem;
+}
+.names h3,
+.names h5 {
+  margin: 0;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.names h3,
+.cast-image {
+  cursor: pointer;
+}
+.full-button {
+  all: unset;
+  font-size: 1.1rem;
+  background-color: #fff;
+  border-radius: 50px;
+  padding: 0.5rem 1.25rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.full-button:hover {
+  transform: translate(-2px, -2px);
+}

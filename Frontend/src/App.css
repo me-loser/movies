@@ -1,0 +1,51 @@
+.App {
+  position: relative;
+}
+.items {
+  /* display: flex; */
+  display: grid;
+  overflow-x: scroll;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 40px;
+  padding: 2rem 0;
+  padding-bottom: 3rem;
+  position: relative;
+}
+.cast-items {
+  display: flex;
+  overflow-x: scroll;
+  gap: 20px;
+  padding: 2rem 0;
+}
+.container {
+  color: white;
+  margin-top: 20rem;
+}
+.routes {
+  padding: 2rem;
+}
+canvas {
+  width: 100vw;
+  height: 100vh;
+}
+.three-background {
+  position: absolute;
+  background-color: black;
+  /* background: url("/textures/stars.jpg"); */
+}
+.main-components {
+  position: relative;
+}
+/* .items::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 100%;
+  transform: translate(-50%);
+  width: 20px;
+  height: 100%;
+  background-color: white;
+  filter: blur(20px);
+  z-index: 1000;
+  border-radius: 100px;
+} */

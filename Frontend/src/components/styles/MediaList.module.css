@@ -1,0 +1,45 @@
+.media-list {
+  margin: 2rem 0;
+  /* color: white; */
+}
+.navbar {
+  all: unset;
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+}
+.navbar li:nth-child(1) {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+li.selected {
+  font-size: 1.1rem;
+  font-weight: 400;
+  border-bottom: 2px solid black;
+}
+.links {
+  display: flex;
+  justify-content: space-between;
+}
+.links > button {
+  cursor: pointer;
+}
+
+.movie-images {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 400px;
+  overflow-x: scroll;
+  padding: 1rem 0;
+}
+.movie-image {
+  object-fit: contain;
+}
+.button-container {
+  min-width: 300px;
+  display: grid;
+  place-items: center;
+}
+.button-container button {
+  cursor: pointer;
+}
